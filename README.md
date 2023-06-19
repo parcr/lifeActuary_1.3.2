@@ -1,8 +1,6 @@
+# lifeActuary 1.3.2
+Package *lifeActuary* is a Python library to perform actuarial mathematics on life contingencies and classical financial mathematics computations. Versatile, simple and easy to use. The main functions are implemented using the usual actuarial approach, making it a natural choice for the life actuary.
 
-
-
-> # LifeActuary 1.3
-Package *lifeactuary* is a Python library to perform actuarial mathematics on life contingencies and classical financial mathematics computations. Versatile, simple and easy to use. The main functions are implemented using the usual actuarial approach, making it a natural choice for the life actuary.
 This document is produced as a descriptive tool on how to use the package and as a user guide for the developed actuarial functions. For each actuarial function, an illustrative example is provided. 
         
 The package uses Python version >= 3.6.
@@ -11,7 +9,7 @@ This package and functions herein are provided as is, without any guarantee rega
     
 This package is still under development and further useful and interesting functions will be available any time soon.
 
-## On Distribution 1.3
+## On Distribution 1.3.2
 - We changed the class "annuities" and now all the life annuity functions do not rely on the computation of the actuarial table. The old functions are still available in "commutationtable"
 - We developed a new class "mortality_insurance.py" where functions for evaluating life insurance contracts are available without the need to compute the commutation table. The old functions are still available in the class "commutationtable".
 - We developed a new class for evaluating annuities and life insurance for groups of two individuals, for joint-life and last-survivor methods.
@@ -20,9 +18,11 @@ This package is still under development and further useful and interesting funct
 - We made a small correction to the function "annuity_x" in "annuities" class.
 - We made a small correction to the npx and nqx functions in the module "mortality_table", when producing the fractional commutation tables using the Balducci and the Constante Mortality Force.
 
-In this version you've a lot of [tests](https://github.com/parcr/LifeActuary_1.3/tree/main/tests), examples; [essay](https://github.com/parcr/LifeActuary_1.3/tree/main/essay),  [essay_for_Manual](https://github.com/parcr/LifeActuary_1.3/tree/main/essay_for_Manual) on how to use the library, as well as, our already famous [Manual](https://github.com/parcr/LifeActuary_1.3/blob/main/info/lifeActuary_v1_3.pdf).
+In this version you've a lot of [tests](https://github.com/parcr/LifeActuary_1.3.2/tree/main/tests), examples; [essay](https://github.com/parcr/LifeActuary_1.3.2/tree/main/essay),  [essay_for_Manual](https://github.com/parcr/LifeActuary_1.3.2/tree/main/essay_for_Manual) on how to use the library, as well as, our already famous [Manual](https://github.com/parcr/lifeActuary_1.3.2/blob/main/info/lifeActuary_v1_3_2.pdf).
 
-All files at [lifeactuary_1.3 at github](https://github.com/parcr/lifeactuary_1.3).
+Please, don't forget to download the soa_tables folder from github; [soa_tables](https://github.com/parcr/lifeActuary_1.3.2)
+
+All files at [lifeactuary_1.3.2 at github](https://github.com/parcr/lifeactuary_1.3.2).
 
 ## Information On older Versions
 You should also visit for version 1.0, [lifeactuary at github](https://github.com/parcr/lifeactuary) to download the folder *"soa_tables"* containing a set of tables, namely the ones used in the examples in the manual.
